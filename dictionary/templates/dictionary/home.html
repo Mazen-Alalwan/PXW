@@ -64,7 +64,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading">What is PX?</h1>
-      <p class="lead text-muted">blah blah (*&$#(*^#$)(*#&)$(#^)(slaves@$#&()$#@*&)(!)_!*&$@#)(*!)^(#$</p>
+      <p class="lead text-muted">blah blah (*&$#(*^#$)(*#&)$(#^)(S@$#&L()$#@*&)(A!)_!*&$V@#)(*!E)^(#$</p>
       <p>
         <a href="#" class="btn btn-primary my-2">Learn the rules!</a>
       </p>
@@ -76,18 +76,25 @@
 
 
     {%for word in words.all%}
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="{{word.symbol.url}}"/>
             <div class="card-body">
-              <p class="card-text">
-                <strong>Main meaning: {{word.main}}</strong>
+              <p class="card-text" id="{{word.main}}">
+                <script>
+                var word = "{{word.main}}";
+                </script>
+                <strong>{{word.main}}</strong>
+                <br>
                 synonyms:
                 {%for key, values in dictionary%}
                 {%if key == word.main%} <br>
 
                 {% for value in values%}
-                -({{value}})
+                <ul style="line-height: .3em;">
+                <li>{{value}}</li>
+                </ul>
+
                 {%endfor%}
                 {%endif%}
                  {%endfor%}
@@ -95,7 +102,13 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="edit(word)">Edit</button>
+
+
+                  
+
+
+
                 </div>
               </div>
             </div>
@@ -116,7 +129,15 @@
     </p>
   </div>
 </footer>
+
+    <script>
+
+      function edit(word) {
+      document.getElementById(word).innerHTML = "Hello World";
+}
+    </script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</html>
+<html>

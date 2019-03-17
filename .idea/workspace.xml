@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371cdcb6-79ce-47c6-bd0e-1d09bac2670b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/migrations/0002_auto_20190312_1727.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/28_Nb2n7by.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/30_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/Screenshot_from_2018-10-28_21-54-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/Screenshot_from_2018-12-10_23-00-56.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PXW/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PXW/syntax_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/syntax_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dictionary/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="90" lean-forward="true" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -53,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+            <state relative-caret-position="321">
+              <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -78,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/dictionary/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -154,8 +138,8 @@
         <option value="$PROJECT_DIR$/dictionary/models.py" />
         <option value="$PROJECT_DIR$/dictionary/tests.py" />
         <option value="$PROJECT_DIR$/PXW/syntax_tests.py" />
-        <option value="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" />
         <option value="$PROJECT_DIR$/dictionary/views.py" />
+        <option value="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" />
       </list>
     </option>
   </component>
@@ -322,6 +306,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24884081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -410,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/dictionary/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -448,20 +433,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="90" lean-forward="true" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
         </state>
       </provider>
     </entry>

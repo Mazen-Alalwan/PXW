@@ -150,19 +150,16 @@
         {%for word in words.all%}
         <li>
 
-            <a href="#" class="user-avatar">
+            <a href="" class="user-avatar">
                 <img src="{{word.symbol.url}}" width="80" alt="Profile of Adeline Yong" />
             </a>
 
             <p>
-                <a href="">{{word.main}}</a>
-                <span> {%for key, values in dictionary%}
-                {%if key == word.main%}
-                {% for value in values%}
-                {{value}},
+                <a href="#">{{word.main}}</a>
+                <span>{%for synonym in word.synonyms%}
+                {{synonym}},
                 {%endfor%}
-                {%endif%}
-                 {%endfor%}</span>
+                </span>
             </p>
 
 

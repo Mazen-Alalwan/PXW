@@ -1,18 +1,5 @@
-from .models import Word
-from django.test import TestCase
-import nltk
-from nltk.corpus import wordnet
+derivation_symbol_num = 0
 
-
-def synonyms():
-    synonyms = []
-    for syn in wordnet.synsets("hello"):
-
-        for l in syn.lemmas():
-            synonyms.append(l.name())
-    synonyms = sorted(set(synonyms[0:3]))
-    return synonyms
-
-
-for synonym in synonyms("hello"):
-    print(synonym)
+derivation_symbol_num += 1
+derivation_symbol = "derivation_symbol"
+derivation_symbol + str(derivation_symbol_num)

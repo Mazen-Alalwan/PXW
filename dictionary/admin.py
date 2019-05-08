@@ -1,5 +1,7 @@
 from django.contrib import admin
 
-from .models import Word
+from .models import Root, Test
 
-admin.site.register(Word)
+admin.site.register(Root)
+
+admin.site.register(Test)

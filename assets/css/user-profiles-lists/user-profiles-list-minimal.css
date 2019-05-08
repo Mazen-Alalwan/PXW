@@ -19,12 +19,12 @@
     min-width:200px;
 }
 
-.user-profiles-list-minimal .user-avatar{
+.user-profiles-list-minimal .symbol{
     float: left;
     padding-right: 10px;
 }
 
-.user-profiles-list-minimal .user-avatar img{
+.user-profiles-list-minimal .symbol img{
     border-radius: 50%;
     border:0;
 }

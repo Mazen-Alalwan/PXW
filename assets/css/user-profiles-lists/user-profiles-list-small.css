@@ -24,12 +24,12 @@
     margin: 12px;
 }
 
-.user-profiles-list-small .user-avatar{
+.user-profiles-list-small .symbol{
     float: left;
     padding: 10px 15px;
 }
 
-.user-profiles-list-small .user-avatar img{
+.user-profiles-list-small .symbol img{
     border-radius: 50%;
     border:0;
 }

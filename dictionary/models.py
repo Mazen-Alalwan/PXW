@@ -1,57 +1,32 @@
 from django.db import models
+from django.contrib.postgres.fields import JSONField
+import nltk
 from nltk.corpus import wordnet
-from nltk.stem import LancasterStemmer
-lancaster = LancasterStemmer()
 
 
-class Word(models.Model):
+derivation_num = 0
+derivation_meaning_num = 0
+
+
+class Root(models.Model):
     root = models.CharField(max_length=20, default='')
-    symbol = models.ImageField(upload_to='images/', default='')
+    root_symbol = models.ImageField(upload_to='images/', default='')
 
-    derivation1_symbol = models.ImageField(upload_to='images/', default='')
-    derivation1_meaning1 = models.CharField(max_length=20, default='')
-    derivation1_meaning2 = models.CharField(max_length=20, default='')
-    derivation1_meaning3 = models.CharField(max_length=20, default='')
-    derivation1_meaning4 = models.CharField(max_length=20, default='')
-    derivation1_meaning5 = models.CharField(max_length=20, default='')
+    def __str__(self):
+        return self.root
 
-
-    derivation2_symbol = models.ImageField(upload_to='images/', default='')
-    derivation2_meaning1 = models.CharField(max_length=20, default='')
-    derivation2_meaning2 = models.CharField(max_length=20, default='')
-    derivation2_meaning3 = models.CharField(max_length=20, default='')
-    derivation2_meaning4 = models.CharField(max_length=20, default='')
-    derivation2_meaning5 = models.CharField(max_length=20, default='')
+    for a in range(5):
+        derivation_meaning_num = 0
+        derivation_num += 1
+        exec('derivation' + str(derivation_num) + "_symbol" +
+             " = models.ImageField(upload_to='images/', default='', blank=True)")
+        for b in range(5):
+            derivation_meaning_num += 1
+            exec("derivation" + str(derivation_num) + "_meaning" + str(derivation_meaning_num) +
+                 " = models.CharField(max_length=20, default='', blank=True)")
 
 
-    derivation3_symbol = models.ImageField(upload_to='images/', default='')
-    derivation3_meaning1 = models.CharField(max_length=20, default='')
-    derivation3_meaning2 = models.CharField(max_length=20, default='')
-    derivation3_meaning3 = models.CharField(max_length=20, default='')
-    derivation3_meaning4 = models.CharField(max_length=20, default='')
-    derivation3_meaning5 = models.CharField(max_length=20, default='')
-
-
-    derivation4_symbol = models.ImageField(upload_to='images/', default='')
-    derivation4_meaning1 = models.CharField(max_length=20, default='')
-    derivation4_meaning2 = models.CharField(max_length=20, default='')
-    derivation4_meaning3 = models.CharField(max_length=20, default='')
-    derivation4_meaning4 = models.CharField(max_length=20, default='')
-    derivation4_meaning5 = models.CharField(max_length=20, default='')
-
-
-    derivation5_symbol = models.ImageField(upload_to='images/', default='')
-    derivation5_meaning1 = models.CharField(max_length=20, default='')
-    derivation5_meaning2 = models.CharField(max_length=20, default='')
-    derivation5_meaning3 = models.CharField(max_length=20, default='')
-    derivation5_meaning4 = models.CharField(max_length=20, default='')
-    derivation5_meaning5 = models.CharField(max_length=20, default='')
-
-
-    derivation6_symbol = models.ImageField(upload_to='images/', default='')
-    derivation6_meaning1 = models.CharField(max_length=20, default='')
-    derivation6_meaning2 = models.CharField(max_length=20, default='')
-    derivation6_meaning3 = models.CharField(max_length=20, default='')
-    derivation6_meaning4 = models.CharField(max_length=20, default='')
-    derivation6_meaning5 = models.CharField(max_length=20, default='')
+class Test(models.Model):
+    test_name = models.CharField(max_length=20, default='')
+    test_list = JSONField()
 

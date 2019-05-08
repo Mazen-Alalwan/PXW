@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>PX</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+.word-list{
+    line-height: 2;
+    list-style:none;
+    text-align: left;
+    margin:0;
+    padding:0;
+}
+
+.word-list li{
+    display: inline-block;
+    box-sizing:border-box;
+    position: relative;
+    text-align:left;
+    font:normal 1em sans-serif;
+    padding: 10px 1% 5px 10px;
+    margin: 5px;
+    background-color:#f4f8fa;
+    border:1px solid #dbe3e7;
+}
+
+.word-list .symbol{
+    float: left;
+    width: 90px;
+    text-align: left;
+
+}
+
+.word-list .symbol img{
+    border-radius: 10%;
+    border:1;
+}
+
+.word-list p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-align: left;
+    max-width: 140px;
+}
+
+
+.word-list p span{
+    display: block;
+    font-size: 1em;
+    color:#808d93;
+    padding-top:4px;
+}
+
+.collapsible {
+     padding: 5px;
+     margin: 8px;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  }
+
+@media(max-width: 500px) {
+
+.word-list p span {
+
+font-size: .7em;
+pading-right: 0px;
+
+}
+
+.word-list li{
+
+font-size: 0.8em;
+margin: 0px;
+
+}
+
+.word-list .symbol{
+
+width: 40px;
+ margin-right: 50px;
+
+}
+
+
+
+
+
+}
+
+</style>
+</head>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">PX</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Dictionary <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+
+<section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">What is PX?</h1>
+      <p class="lead text-muted">blah blah (*&$#(*^#$)(*#&)$(#^)(S@$#&L()$#@*&)(A!)_!*&$V@#)(*!E)^(#$</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Learn the rules!</a>
+      </p>
+    </div>
+  </section>
+
+<body>
+
+
+   <ul class="word-list">
+{% for root in roots.all %}
+      <li>
+
+            <a href="" class="symbol" style="">
+                <img src="{{root.root_symbol.url}}" width="80" />
+            </a>
+
+
+
+            <p>
+                {{root.root}} <br>
+                derivations:
+                <span>
+                    {{root.derivation1_meaning1}} <br>
+                    {{root.derivation2_meaning1}} <br>
+                    {{root.derivation3_meaning1}} <br>
+                    {{root.derivation4_meaning1}} <br>
+                </span>
+            </p>
+
+            <button class="collapsible" >derivations</button>
+                <div class="content">
+
+                      <ul class="word-list" style=" display: block;">
+                    <br>
+                          <li style="border:none">
+                          <a href="#" class="symbol">
+                    <img src="{{root.derivation1_symbol.url}}" width="80px"  >
+                          </a>
+                              <p>
+                         <span  style="margin-left: 10px">
+                        {{root.derivation1_meaning1}} <br>
+                        {{root.derivation1_meaning2}} <br>
+                        {{root.derivation1_meaning3}} <br>
+                        {{root.derivation1_meaning4}} <br>
+                         </span>
+                              </p>
+                            </li>
+                          <br>
+                            <li style="border:none">
+                          <a href="#" class="symbol">
+                    <img src="{{root.derivation2_symbol.url}}" width="80px"  >
+                          </a>
+                              <p>
+                         <span  style="margin-left: 10px">
+                        {{root.derivation2_meaning1}} <br>
+                        {{root.derivation2_meaning2}} <br>
+                        {{root.derivation2_meaning3}} <br>
+                        {{root.derivation2_meaning4}} <br>
+                         </span>
+                              </p>
+                            </li>
+                          <br>
+                             <li style="border:none">
+                                 {%if root.derivation3_symbol %}
+                          <a href="#" class="symbol">
+                    <img src="{{root.derivation3_symbol.url}}" width="80px"  >
+                          </a>
+                              <p>
+                         <span  style="margin-left: 10px">
+                        {{root.derivation3_meaning1}} <br>
+                        {{root.derivation3_meaning2}} <br>
+                        {{root.derivation3_meaning3}} <br>
+                        {{root.derivation3_meaning4}} <br>
+                         </span>
+                              </p>
+                                 {%endif%}
+                            </li>
+                      </ul>
+                </div>
+       </li>
+{% endfor %}
+   </ul>
+   <br>
+   <br>
+   <br>
+</body>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</html>

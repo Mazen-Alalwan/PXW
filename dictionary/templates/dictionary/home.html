@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Freebie: 12 Practical Templates For List Pages</title>
+    <title>PX</title>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
@@ -16,88 +16,72 @@
 
     <style>
 
-.user-profiles-list-basic{
-    line-height: 1;
+.word-list{
+    line-height: 0.5;
     list-style:none;
     text-align: center;
     margin:0;
     padding:0;
 }
 
-.user-profiles-list-basic li{
+.word-list li{
     display: inline-block;
     box-sizing:border-box;
     position: relative;
 
     text-align:left;
     font:normal 16px sans-serif;
-    padding: 15px 30px 15px 20px;
-    margin: 12px;
+    padding: 10px 15px 0px 10px;
+    margin: 6px;
 
     background-color:#f4f8fa;
     border:1px solid #dbe3e7;
     box-shadow: 0 2px 3px #dbe3e7;
 }
 
-.user-profiles-list-basic .user-avatar{
+.word-list .symbol{
     float: left;
-    width:100px;
+    width: 90px;
     text-align: left;
 }
 
-.user-profiles-list-basic .user-avatar img{
-    border-radius: 50%;
-    border:0;
+.word-list .symbol img{
+    border-radius: 10%;
+    border:1;
 }
 
-.user-profiles-list-basic p{
+.word-list p{
     white-space: nowrap;
     overflow: hidden;
     text-overflow:ellipsis;
     text-align: left;
-    margin-top: 20px;
-    max-width:340px;
+    max-width:100px;
 }
 
-.user-profiles-list-basic p a{
+.word-list p a{
     color:#5d6569;
     text-decoration: none;
     font-weight:bold;
     font-size:18px;
 }
 
-.user-profiles-list-basic p span{
+.word-list p span{
     display: block;
     font-size: 13px;
     color:#808d93;
     padding-top:4px;
 }
 
-.user-profiles-list-basic .delete{
-    background-color:#de4a4a;
-    border-radius: 50%;
-    color:#fff;
-    font-size:13px;
-    line-height: 22px;
-    width:22px;
-    height: 22px;
-    position: absolute;
-    top:-10px;
-    right:-10px;
-    text-align: center;
-    text-decoration: none;
-
-}
 
 /* Making the list responsive */
 
 @media (max-width: 400px) {
 
-    .user-profiles-list-basic li{
+    .word-list li{
         margin: 10px 0;
     }
 
-    .user-profiles-list-basic .delete{
+    .word-list .delete{
         top: 10px;
         right: 10px;
     }
@@ -146,19 +130,21 @@
     </div>
   </section>
 
-    <ul class="user-profiles-list-basic">
-        {%for word in words.all%}
+    <ul class="word-list">
+        {%for root in roots.all%}
         <li>
 
-            <a href="" class="user-avatar">
-                <img src="{{word.symbol.url}}" width="80" alt="Profile of Adeline Yong" />
+            <a href="" class="symbol">
+                <img src="{{root.root_symbol.url}}" width="80" alt="Profile of Adeline Yong" />
             </a>
 
             <p>
-                <a href="#">{{word.meaning1}}</a>
-                <span>{%for synonym in word.synonyms%}
-                {{synonym}},
-                {%endfor%}
+                <a href="root/{{root.pk}}">{{root.root}}</a>
+                <span>derivations: <br>
+                    {{root.derivation1_meaning1}} <br>
+                    {{root.derivation2_meaning1}} <br>
+                    {{root.derivation3_meaning1}} <br>
+                    {{root.derivation4_meaning1}} <br>
                 </span>
             </p>
 
@@ -169,5 +155,10 @@
     </ul>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </html>

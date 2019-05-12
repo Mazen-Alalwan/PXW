@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="371cdcb6-79ce-47c6-bd0e-1d09bac2670b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PXW/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="371cdcb6-79ce-47c6-bd0e-1d09bac2670b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2505">
+            <state relative-caret-position="368">
               <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PXW/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+            <state relative-caret-position="45">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -364,7 +362,7 @@
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.248068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.248068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,7 +373,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32735425" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992272" visible="true" weight="0.23766816" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4992272" visible="true" weight="0.23766816" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007728" side_tool="true" weight="0.33023256" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32735425" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -502,22 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2370">
@@ -586,10 +568,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PXW/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+        <state relative-caret-position="45">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="86" />
         </state>
       </provider>
     </entry>

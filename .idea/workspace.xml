@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371cdcb6-79ce-47c6-bd0e-1d09bac2670b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PXW/syntax_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/syntax_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PXW/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-small.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user-profiles-lists/user-profiles-list-small.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/templates/dictionary/word_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/root.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PXW/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PXW/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,21 +13,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="2505">
               <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,8 +33,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PXW/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="79" column="22" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="22" />
+            <state relative-caret-position="413">
+              <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PXW/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -173,7 +156,6 @@
         <option value="$PROJECT_DIR$/PXW/.gitignore" />
         <option value="$PROJECT_DIR$/PXW/views.py" />
         <option value="$PROJECT_DIR$/dictionary/apps.py" />
-        <option value="$PROJECT_DIR$/PXW/settings.py" />
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/testing.html" />
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/word_details.html" />
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/urls.py" />
@@ -188,6 +170,7 @@
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/home.html" />
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/testing.py" />
         <option value="$PROJECT_DIR$/dictionary/templates/dictionary/test.html" />
+        <option value="$PROJECT_DIR$/PXW/settings.py" />
       </list>
     </option>
   </component>
@@ -203,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,12 +225,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordcount" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -391,10 +374,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992272" visible="true" weight="0.24813154" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32735425" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992272" visible="true" weight="0.23766816" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007728" side_tool="true" weight="0.33023256" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32868218" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32735425" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,6 +385,32 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/lib/python3.6/dist-packages/PyDictionary/__init__.py">
@@ -424,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PXW/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -500,6 +502,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2370">
@@ -561,26 +579,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/templates/dictionary/test.html">
+    <entry file="file://$PROJECT_DIR$/PXW/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1875">
+          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PXW/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="79" column="22" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="22" />
+        <state relative-caret-position="413">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
         </state>
       </provider>
     </entry>
